@@ -1,0 +1,21 @@
+---
+title: "zy's website"
+author: "zy"
+date: "11/5/2021"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is an introductory page
+
+Hi, I'm Stephanie, and this is a website including my academic and professional experience.
+
+
+This [resume](resume.html) about my past academic and professional experience， 
+
+
+
+

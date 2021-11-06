@@ -1,0 +1,89 @@
+---
+title: "resume"
+author: "zy"
+date: "11/5/2021"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# EDUCATION
+
+  Renmin University of China (RUC)	09/2017 – 07/2021
+Bachelor of Economics in Economics of Resources and Environment, Minor in Economic Statistics
+•	Awarded Third Class Scholarship, School of Environment & Natural Resources (10/2018)	
+Columbia University	07/2019 – 08/2019
+Summer Session, Courses: Financial Economics, Calc-based Intro to Statistics
+
+
+# RESEARCH PROJECTS	
+ 
+  Multiple Course Papers on National Economic Accounting   	03/2020 – 06/2020	
+Researcher
+•	Wrote “Limitations of GDP indicators and economic sustainability”, “Structures of residents’ financial assets and property income” and “Processing trade accounting and profit distribution”
+
+•	Collected data of economy and society on official websites of the government and ministries
+
+•	Analyzed data using tools including input-output tables and capital flow tables 
+
+•	Examined problems in society from data and raised possible solutions
+
+Case Analysis on Business Analytics	05/2020
+Group Member, House Buying Recommendation in Pittsburgh for a Family
+•	Analyzed house requirements, retrieved and evaluated 22 local neighborhoods
+
+•	Set role, filtered examples, clustered data and obtained optimal solution of K and DBI
+
+•	Selected a house in 6 neighborhoods based on data of property trading and price prediction 
+Group Member, Camera and Router Recommendation
+
+•	Obtained and processed positive and negative review data of 4 cameras and 3 routers on Amazon
+
+•	Applied SVM and sentiment analysis in RapidMiner
+
+•	Found the camera with the highest confidence and recommended them to buyers
+
+•	Identified the router with the highest star ratings by feature and offered advice to buyers
+
+  Exploring Factors that Influence Prices of Used Books  	12/2019
+Group Presentation	
+•	Used multiple regression analysis to build a model of book pricing in R
+
+•	Performed descriptive analysis and considered the attribute for each factors, then change the factors into forms that can be added in to the model
+
+•	Obtained a general pricing model to guide both business owners and students to earn more profits
+INTERNSHIP	
+ 
+  Chinese Academy of Natural Resources Economics   Intern   	08/2020 – 12/2020
+•	Collected information on web portals, entered the data and monthly statistical reports into excel, classified and summarized them for project research
+
+•	Performed other responsibilities required including preparing PowerPoint slides and organizing files
+
+
+# EXTRACURRICULAR ACTIVITIES 
+  
+  AIESEC   	03/2018 – 06/2019	
+Member, Overseas Volunteer Program Department (03/2018-07/2018)
+•	Helped with volunteers’ applications, wrote articles to promote programs and held offline activities
+Chair, Overseas Paid Internship Department (07/2018-06/2019)
+
+•	Contacted potential interns, promoted internship products to them, managed clients and helped them
+
+•	Conducted market research on campus, managed the team by organizing activities and meetings
+Sports Department, School of Environment & Natural Resources, RUC	09/2017 – 06/2019
+Member (09/2017-06/2018), Chair (09/2018-06/2016)
+
+•	Performed registration and promotion for sports events in the university such as writing articles
+
+•	Held sports activities in the school and managed team members
+
+# SKILLS
+ 
+•	Languages: Native in Chinese/Mandarin, Proficient in English
+
+•	Computer: Proficient in SPSS, Intermediate in R, Basic in Stata
+
+•	Hobby: Badminton
+

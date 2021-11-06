@@ -1,0 +1,16 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:zy2378@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      href: http://github.com/zy1130/
+    - text: "Facebook"
+      href: https://www.facebook.com/profile.php?id=100008442694233
+    - text: "Plotly"
+      href: dashboard.html
+output:
+  html_document:
+    theme: cerulean
