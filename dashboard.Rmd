@@ -11,7 +11,6 @@ library(flexdashboard)
 library(p8105.datasets)
 library(tidyverse)
 library(plotly)
-?plot_ly
 ```
 
 ```{r,include=FALSE}
@@ -27,9 +26,11 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
+y <- list(title = "Days since prior order")
 instacart_df %>% 
   mutate(aisle = fct_reorder(aisle,days_since_prior_order)) %>% 
-  plot_ly(y = ~days_since_prior_order, color = ~aisle, type = "box", colors = "viridis")
+  plot_ly(y = ~days_since_prior_order, color = ~aisle, type = "box", colors = "viridis")%>%
+  layout(yaxis=y)
 ```
 
 Column {data-width=350}
@@ -47,9 +48,12 @@ instacart_df %>%
 ### Chart C
 
 ```{r}
+x <- list(title = "Product id")
+y <- list(title = "Order hour of day")
 instacart_df %>%
   mutate(text_label = str_c("Order hour of day:", order_hour_of_day, "\nProduct id: ", product_id)) %>% 
   plot_ly(
-    x = ~product_id, y = ~order_hour_of_day, type = "scatter", mode = "markers", color=~aisle_id,text=~text_label,alpha = 0.5)
+    x = ~product_id, y = ~order_hour_of_day, type = "scatter", mode = "markers", color=~aisle_id,text=~text_label,alpha = 0.5)%>%
+  layout(xaxis=x,yaxis=y)
 ```
 
